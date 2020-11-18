@@ -1,4 +1,4 @@
-1. Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goal.
+# 1. Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goal.
 
 ## Repository
 The reposity loads JSON log data and song metadate to a Postgres database. 
@@ -12,7 +12,7 @@ data collected about songs and user activity on their streaminmg app. Before the
 system the company did not have an easy way to query data.
 
 
-2. State and justify your database schema design and ETL pipeline.
+# 2. State and justify your database schema design and ETL pipeline.
 
 ## Database Schema Design
 The database is broken down into 5 different tables (song_plays, users, songs, artist, time) in order 
