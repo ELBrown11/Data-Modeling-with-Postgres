@@ -1,7 +1,7 @@
 # 1. Discuss the purpose of this database in the context of the startup, Sparkify, and their analytical goal.
 
 ## Repository
-The reposity loads JSON log data and song metadate to a Postgres database. 
+The reposity loads JSON log data and song metadata to a Postgres database. 
 The data files used...
 * log_data
 * song_data
@@ -35,7 +35,7 @@ Extract --> Transform --> Load
      * drops tables if they already exist
      * create tables
  * etl.ipynb
-     * acts as scractch paper for testing out of coding to the ETL pipeline
+     * acts as scratch paper for testing out of coding to the ETL pipeline
  * etl.py
      * processes data from log and song files
      * inserts the processed data into the database and tables
